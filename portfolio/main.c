@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     printf("Select a lab that you want to run:\n");
     printf("(A):Pythagoras Lives\n");
     printf("(B):Data Types\n");
-    printf("(C):\n");
+    printf("(C):Seconds Calculator\n");
     printf("(D):\n");
     printf("(E):\n");
     printf("(F):\n");
@@ -27,27 +27,27 @@ int main(int argc, const char * argv[]) {
         scanf("%c", &choice);
         if(choice == 'A' || choice == 'a') {
             x=1;
-            printf("You chose Pythagoras Lives.");
+            printf("You chose Pythagoras Lives. \n");
             pyth();
         } else if(choice == 'B' || choice == 'b') {
             x=1;
-             printf("You chose Data Types.");
+             printf("You chose Data Types. \n");
             datatypes();
         } else if(choice == 'C' || choice == 'c') {
             x=1;
-            printf("You chose .");
-            
+            printf("You chose Seconds Calculator. \n");
+            seccalc();
         } else if(choice == 'D' || choice == 'd') {
             x=1;
-            printf("You chose .");
+            printf("You chose . \n");
             
         } else if(choice == 'E' || choice == 'e') {
             x=1;
-            printf("You chose .");
+            printf("You chose . \n");
             
         } else if(choice == 'F' || choice == 'f') {
             x=1;
-            printf("You chose .");
+            printf("You chose . \n");
             
         } else {
             printf("Invalid Choice\n");

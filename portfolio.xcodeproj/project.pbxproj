@@ -10,6 +10,7 @@
 		C2697A822328064500AA9D3B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C2697A812328064500AA9D3B /* main.c */; };
 		C2697A8A23280ADE00AA9D3B /* pyth.c in Sources */ = {isa = PBXBuildFile; fileRef = C2697A8923280ADE00AA9D3B /* pyth.c */; };
 		C2B5F5C5232A9B4B00AA4844 /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B5F5C4232A9B4B00AA4844 /* datatypes.c */; };
+		C2B5F5C8232AA11300AA4844 /* seccalc.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B5F5C7232AA11300AA4844 /* seccalc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		C2697A8923280ADE00AA9D3B /* pyth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pyth.c; sourceTree = "<group>"; };
 		C2B5F5C3232A9B4B00AA4844 /* datatypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
 		C2B5F5C4232A9B4B00AA4844 /* datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
+		C2B5F5C6232AA11300AA4844 /* seccalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seccalc.h; sourceTree = "<group>"; };
+		C2B5F5C7232AA11300AA4844 /* seccalc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seccalc.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				C2697A8923280ADE00AA9D3B /* pyth.c */,
 				C2B5F5C3232A9B4B00AA4844 /* datatypes.h */,
 				C2B5F5C4232A9B4B00AA4844 /* datatypes.c */,
+				C2B5F5C6232AA11300AA4844 /* seccalc.h */,
+				C2B5F5C7232AA11300AA4844 /* seccalc.c */,
 			);
 			path = portfolio;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B5F5C8232AA11300AA4844 /* seccalc.c in Sources */,
 				C2697A822328064500AA9D3B /* main.c in Sources */,
 				C2B5F5C5232A9B4B00AA4844 /* datatypes.c in Sources */,
 				C2697A8A23280ADE00AA9D3B /* pyth.c in Sources */,
