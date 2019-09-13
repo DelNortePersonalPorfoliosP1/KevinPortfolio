@@ -11,6 +11,7 @@
 #include "datatypes.h"
 #include "seccalc.h"
 #include "rectangle.h"
+#include <time.h>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -21,7 +22,7 @@ int main(int argc, const char * argv[]) {
     printf("(B):Data Types\n");
     printf("(C):Seconds Calculator\n");
     printf("(D):Rectangle: Area and Perimeter Calculator\n");
-    printf("(E):\n");
+    printf("(E):Temperature Calculator\n");
     printf("(F):\n");
     
     int x = 0;
@@ -46,8 +47,8 @@ int main(int argc, const char * argv[]) {
             rectangle();
         } else if(choice == 'E' || choice == 'e') {
             x=1;
-            printf("You chose . \n");
-            
+            printf("You chose Temperature Calculator. \n");
+            tempcalc();
         } else if(choice == 'F' || choice == 'f') {
             x=1;
             printf("You chose . \n");

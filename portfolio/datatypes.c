@@ -10,9 +10,10 @@
 #include <limits.h>
 
 
+
 int datatypes(void) {
     
-    printf("WIP");
+    printf("This Lab is Work in Progress \n");
     
     
     return 0;
