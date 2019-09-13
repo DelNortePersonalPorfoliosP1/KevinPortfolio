@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2697A822328064500AA9D3B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C2697A812328064500AA9D3B /* main.c */; };
 		C2697A8A23280ADE00AA9D3B /* pyth.c in Sources */ = {isa = PBXBuildFile; fileRef = C2697A8923280ADE00AA9D3B /* pyth.c */; };
+		C29FA085232BF27F006562AD /* rectangle.c in Sources */ = {isa = PBXBuildFile; fileRef = C29FA084232BF27F006562AD /* rectangle.c */; };
 		C2B5F5C5232A9B4B00AA4844 /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B5F5C4232A9B4B00AA4844 /* datatypes.c */; };
 		C2B5F5C8232AA11300AA4844 /* seccalc.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B5F5C7232AA11300AA4844 /* seccalc.c */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 		C2697A812328064500AA9D3B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C2697A8823280ADE00AA9D3B /* pyth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pyth.h; sourceTree = "<group>"; };
 		C2697A8923280ADE00AA9D3B /* pyth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pyth.c; sourceTree = "<group>"; };
+		C29FA083232BF27F006562AD /* rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = "<group>"; };
+		C29FA084232BF27F006562AD /* rectangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rectangle.c; sourceTree = "<group>"; };
 		C2B5F5C3232A9B4B00AA4844 /* datatypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
 		C2B5F5C4232A9B4B00AA4844 /* datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
 		C2B5F5C6232AA11300AA4844 /* seccalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seccalc.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				C2B5F5C4232A9B4B00AA4844 /* datatypes.c */,
 				C2B5F5C6232AA11300AA4844 /* seccalc.h */,
 				C2B5F5C7232AA11300AA4844 /* seccalc.c */,
+				C29FA083232BF27F006562AD /* rectangle.h */,
+				C29FA084232BF27F006562AD /* rectangle.c */,
 			);
 			path = portfolio;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				C2697A822328064500AA9D3B /* main.c in Sources */,
 				C2B5F5C5232A9B4B00AA4844 /* datatypes.c in Sources */,
 				C2697A8A23280ADE00AA9D3B /* pyth.c in Sources */,
+				C29FA085232BF27F006562AD /* rectangle.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

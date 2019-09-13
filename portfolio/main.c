@@ -8,6 +8,9 @@
 
 #include <stdio.h>
 #include "pyth.h"
+#include "datatypes.h"
+#include "seccalc.h"
+#include "rectangle.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -17,7 +20,7 @@ int main(int argc, const char * argv[]) {
     printf("(A):Pythagoras Lives\n");
     printf("(B):Data Types\n");
     printf("(C):Seconds Calculator\n");
-    printf("(D):\n");
+    printf("(D):Rectangle: Area and Perimeter Calculator\n");
     printf("(E):\n");
     printf("(F):\n");
     
@@ -39,8 +42,8 @@ int main(int argc, const char * argv[]) {
             seccalc();
         } else if(choice == 'D' || choice == 'd') {
             x=1;
-            printf("You chose . \n");
-            
+            printf("You chose Rectangle: Area and Perimeter Calculator. \n");
+            rectangle();
         } else if(choice == 'E' || choice == 'e') {
             x=1;
             printf("You chose . \n");

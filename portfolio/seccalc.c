@@ -8,6 +8,7 @@
 
 #include "seccalc.h"
 
+
 int seccalc(void) {
     
     int inputseconds;

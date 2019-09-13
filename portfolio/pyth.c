@@ -9,6 +9,7 @@
 #include "pyth.h"
 #include <math.h>
 
+
 int pyth(void) {
 
     double leg1;
