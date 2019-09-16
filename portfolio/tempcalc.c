@@ -15,13 +15,18 @@ int tempcalc(void) {
     scanf("%lf", &temp);
     
     double celsius;
+    double kelvin;
+    
     
     celsius = (5/9)*(temp-32);
+    kelvin = celsius + 273;
     
-    printf("Your entered temperature in Celsius is:  %lf", celsius);
-    
-    
-    
+    if(temp<-459.67) {
+        printf("The temperature can't go that low.");
+    } else {
+    printf("Your entered temperature in Celsius is:  %lf \n", celsius);
+    printf("Your entered temperature in Kelvin is: %lf \n", kelvin);
+    }
     
     return 0;
 }
