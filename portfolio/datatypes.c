@@ -13,7 +13,7 @@
 
 int datatypes(void) {
     
-    printf("This Lab is Work in Progress \n");
+    printf("This Lab is a Work in Progress.\n");
     
     
     return 0;

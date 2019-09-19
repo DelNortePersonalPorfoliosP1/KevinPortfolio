@@ -15,47 +15,51 @@
 #include "tempcalc.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+
+    
     char choice;
-   
-    printf("Select a lab that you want to run:\n");
-    printf("(A):Pythagoras Lives\n");
-    printf("(B):Data Types\n");
-    printf("(C):Seconds Calculator\n");
-    printf("(D):Rectangle: Area and Perimeter Calculator\n");
-    printf("(E):Temperature Calculator\n");
-    printf("(F):\n");
+    printf("          _____________________________________\n");
+    printf("         | Select a lab that you want to run:  |\n");
+    printf("         /-------------------------------------\\\n");
+    printf("         |  (A):Pythagoras Lives               |\n");
+    printf("         |  (B):Data Types                     |\n");
+    printf("         |  (C):Seconds Calculator             |\n");
+    printf("         |  (D):Rectangle Calculator           |\n");
+    printf("         |  (E):Temperature Calculator         |\n");
+    printf("         \\-------------------------------------/\n");
+    printf("                            ");
     
     int x = 0;
     
     while(x != 1) {
-        scanf("%c", &choice);
+        scanf("%s", &choice);
         if(choice == 'A' || choice == 'a') {
             x=1;
-            printf("You chose Pythagoras Lives. \n");
+            printf("\nYou chose Pythagoras Lives. \n");
             pyth();
         } else if(choice == 'B' || choice == 'b') {
             x=1;
-             printf("You chose Data Types. \n");
+             printf("\nYou chose Data Types. \n");
             datatypes();
         } else if(choice == 'C' || choice == 'c') {
             x=1;
-            printf("You chose Seconds Calculator. \n");
+            printf("\nYou chose Seconds Calculator. \n");
             seccalc();
         } else if(choice == 'D' || choice == 'd') {
             x=1;
-            printf("You chose Rectangle: Area and Perimeter Calculator. \n");
+            printf("\nYou chose Rectangle Calculator. \n");
             rectangle();
         } else if(choice == 'E' || choice == 'e') {
             x=1;
-            printf("You chose Temperature Calculator. \n");
+            printf("\nYou chose Temperature Calculator. \n");
             tempcalc();
-        } else if(choice == 'F' || choice == 'f') {
-            x=1;
-            printf("You chose . \n");
-            
         } else {
-            printf("Invalid Choice\n");
+            printf("\n                   _________________\n");
+            printf("                  /                 \\");
+            printf("\n                 |  INVALID CHOICE   |");
+            printf("\n                 |   SELECT AGAIN    |\n");
+            printf("                  \\_________________/\n");
+            printf("                           ");
         }
         
                    }
@@ -63,3 +67,4 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+
