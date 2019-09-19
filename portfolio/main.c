@@ -12,7 +12,7 @@
 #include "seccalc.h"
 #include "rectangle.h"
 #include <time.h>
-#include "tempcalc.c"
+#include "tempcalc.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
