@@ -125,8 +125,8 @@ int historama(void) {
     }
     printf("\n");
 
-    printf("Average:  %lf\n", average);
-    
+    printf("Average:  %lf", average);
+    printf("%lf : ", average);
     while (roundedaverage > 0) {
         printf("*");
         roundedaverage--;
