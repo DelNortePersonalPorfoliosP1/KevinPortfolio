@@ -13,6 +13,7 @@
 #include "rectangle.h"
 #include <time.h>
 #include "tempcalc.h"
+#include "historama.h"
 
 int main(int argc, const char * argv[]) {
 
@@ -26,6 +27,7 @@ int main(int argc, const char * argv[]) {
     printf("         |  (C):Seconds Calculator             |\n");
     printf("         |  (D):Rectangle Calculator           |\n");
     printf("         |  (E):Temperature Calculator         |\n");
+    printf("         |  (F):Historama                      |\n");
     printf("         \\-------------------------------------/\n");
     printf("                            ");
     
@@ -53,6 +55,10 @@ int main(int argc, const char * argv[]) {
             x=1;
             printf("\nYou chose Temperature Calculator. \n");
             tempcalc();
+        } else if (choice == 'F' || choice == 'f') {
+            x=1;
+            printf("\nYou chose Historama. \n");
+            historama();
         } else {
             printf("\n                   _________________\n");
             printf("                  /                 \\");
