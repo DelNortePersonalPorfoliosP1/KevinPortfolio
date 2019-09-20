@@ -13,6 +13,7 @@
 		C29FA089232BF55F006562AD /* tempcalc.c in Sources */ = {isa = PBXBuildFile; fileRef = C29FA088232BF55F006562AD /* tempcalc.c */; };
 		C2B49E54233524D20080E151 /* historama.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B49E53233524D20080E151 /* historama.c */; };
 		C2B49E57233530630080E151 /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B49E56233530630080E151 /* datatypes.c */; };
+		C2B49E5A233531690080E151 /* survey.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B49E59233531690080E151 /* survey.c */; };
 		C2B5F5C8232AA11300AA4844 /* seccalc.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B5F5C7232AA11300AA4844 /* seccalc.c */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		C2B49E53233524D20080E151 /* historama.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = historama.c; sourceTree = "<group>"; };
 		C2B49E55233530630080E151 /* datatypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
 		C2B49E56233530630080E151 /* datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
+		C2B49E58233531690080E151 /* survey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = survey.h; sourceTree = "<group>"; };
+		C2B49E59233531690080E151 /* survey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = survey.c; sourceTree = "<group>"; };
 		C2B5F5C6232AA11300AA4844 /* seccalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = seccalc.h; sourceTree = "<group>"; };
 		C2B5F5C7232AA11300AA4844 /* seccalc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = seccalc.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				C2697A812328064500AA9D3B /* main.c */,
 				C2B49E55233530630080E151 /* datatypes.h */,
 				C2B49E56233530630080E151 /* datatypes.c */,
+				C2B49E58233531690080E151 /* survey.h */,
+				C2B49E59233531690080E151 /* survey.c */,
 				C2B49E52233524D20080E151 /* historama.h */,
 				C2B49E53233524D20080E151 /* historama.c */,
 				C29FA087232BF55F006562AD /* tempcalc.h */,
@@ -155,6 +160,7 @@
 				C29FA089232BF55F006562AD /* tempcalc.c in Sources */,
 				C2697A8A23280ADE00AA9D3B /* pyth.c in Sources */,
 				C29FA085232BF27F006562AD /* rectangle.c in Sources */,
+				C2B49E5A233531690080E151 /* survey.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
